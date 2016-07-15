@@ -1,0 +1,23 @@
+{
+  "name": "electrontest",
+  "version": "1.0.0",
+  "description": "test of electron",
+  "main": "test.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Myapp --platform=linux --arch=x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Tom",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.7"
+  }
+}
